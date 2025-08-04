@@ -5,6 +5,7 @@ import booksRoutes from "./routes/books.routes.js";
 
 const app = express();
 
+// add the file url and other things
 // middleware
 app.use(express.json());
 app.use("/books", booksRoutes);
