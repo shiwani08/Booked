@@ -87,3 +87,11 @@ const deleteBook = async (req, res) => {
     res.status(500).json({ error: "Internal Server Error" });
   }
 };
+
+export {
+  getAllBooks,
+  getBookById,
+  createBook,
+  updateBook,
+  deleteBook,
+};

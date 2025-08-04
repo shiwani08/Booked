@@ -1,5 +1,4 @@
 import express from "express";
-import { Book } from "../models/book.model.js";
 
 import {
   getAllBooks,
